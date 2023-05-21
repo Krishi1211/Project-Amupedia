@@ -59,9 +59,9 @@ const Navbar = () => {
         id="navbar"
       >
         {/* {TODO: !Logo to be completed } */}
-        {/* <div className={styles.logo}>
+        <div className={styles.logo}>
 					<Image src={logo} alt="Logo"></Image>
-				</div> */}
+				</div> 
         <ul className={styles.list}>
           <li
             className={`${styles.listitem} ${
