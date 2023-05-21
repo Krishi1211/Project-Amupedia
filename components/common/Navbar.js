@@ -63,6 +63,24 @@ const Navbar = () => {
 					<Image src={logo} alt="Logo"></Image>
 				</div> 
         <ul className={styles.list}>
+	<li
+            className={`${styles.listitem} ${
+              router.pathname === "/" && !courseActive && navbar
+                ? styles.navList_active
+                : ""
+            }`}
+          >AMUPIDEA
+            <Link href="/">
+              <a
+                onClick={onClick}
+                className={`${styles.lnk} ${
+                  router.pathname === "/" && !courseActive ? styles.active : ""
+                } ${navbar && styles.nav_active}`}
+              >
+                
+              </a>
+            </Link>
+          </li>
           <li
             className={`${styles.listitem} ${
               router.pathname === "/" && !courseActive && navbar
