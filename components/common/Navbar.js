@@ -58,10 +58,10 @@ const Navbar = () => {
         className={`${styles.navbar} ${navbar && styles.active}`}
         id="navbar"
       >
-        {/* {TODO: !Logo to be completed } */}
-        {/* <div className={styles.logo}>
+        {/* {TODO: !Logo to be completed  */}
+        <div className={styles.logo}>
 					<Image src={logo} alt="Logo"></Image>
-				</div> */}
+				</div>
         <ul className={styles.list}>
           <li
             className={`${styles.listitem} ${
